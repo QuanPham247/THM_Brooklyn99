@@ -4,6 +4,7 @@ Question 1: Retrieve user flag.
 - Look for open ports and services on the target
     nmap $IP
 ![image](https://github.com/QuanPham247/THM_Brooklyn99/assets/97132705/f660aab7-905f-43d9-bd48-de649352d37a)
+
 -> FTP, SSH, and HTTP are open.
 - FTP: Use anonymous to access the victim's FTP.
      ftp $IP
